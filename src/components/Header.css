@@ -1,0 +1,50 @@
+.Header {
+    background-color: #294c72;
+    height: 111px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7vw;
+    position: fixed;
+    top : 0;
+    left: 0;
+    z-index: 2;
+
+}
+
+.header-button {
+
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    
+}
+
+.LOGO {
+    
+    width: 169px;
+    height: 111px;
+    object-fit: cover;
+  }
+
+
+/* .header-button.left-1 {
+    left: 537px;
+}
+
+.header-button.left-2 {
+    left: 748px;
+}
+
+.header-button.left-3 {
+    left: 989px;
+}
+.header-button.left-4 {
+    left: 1271px;
+} */
+
