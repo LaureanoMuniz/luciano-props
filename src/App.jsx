@@ -7,6 +7,8 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import ShowCase from './components/ShowCase' 
+
 
 function App() {
   return (
@@ -32,13 +34,14 @@ function App() {
         centeredSlides={true}
         className="mySwiper"
       >
-        <SwiperSlide><img src="https://fotos.perfil.com/2021/04/23/trim/960/540/0423tres-arroyos-1162731.jpg?format=webp"/> className="slide-image" </SwiperSlide>
-        <SwiperSlide><img src="https://c.animaapp.com/w56YXEhf/img/frame-2.png"/> alt="Slide 2"</SwiperSlide>
-        <SwiperSlide><img src="https://c.animaapp.com/w56YXEhf/img/frame-2.png"/> alt="Slide 3"</SwiperSlide>
+        <SwiperSlide><img src="https://fotos.perfil.com/2021/04/23/trim/960/540/0423tres-arroyos-1162731.jpg?format=webp" className="slide-image" /></SwiperSlide>
+        <SwiperSlide><img src="https://c0.wallpaperflare.com/path/901/234/383/argentina-buenos-aires-9-de-julio-avenida-31d77c2f5729e6758ed2135546cc5933.jpg" className="slide-image"/></SwiperSlide>
+        <SwiperSlide><img src="https://c.animaapp.com/w56YXEhf/img/frame-2.png" className="slide-image"/></SwiperSlide>
         
         
       </Swiper>
-
+        <ShowCase />
+        
         
     </div>
   );
