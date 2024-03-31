@@ -28,7 +28,7 @@ const Carta = () => {
                     </div>
                 </div>
                 <p style={{height: '20px'}} >Sucucho en recoleta por dos mangos</p>
-                <p style={{position: 'relative', top: '30px', right: '0', zIndex:'5'}} >venta</p>
+                <p style={{position: 'relative', top: '30px', right: '0', zIndex:'5'}} >se vende apartamento</p>
             </div>
         </div>
     )
