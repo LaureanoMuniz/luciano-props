@@ -40,7 +40,7 @@ const CartaImg = ({operacion, titulo, foto}) => {
             <div className='captionContainer'>
                 <p className="imgCaption">{titulo}</p>
             </div>
-            <p className='propTitle'>{titulo}</p>
+            {/* <p className='propTitle'>{titulo}</p> */}
         </div>
     )
 }
