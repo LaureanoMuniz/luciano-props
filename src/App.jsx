@@ -8,13 +8,17 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import ShowCase from './components/ShowCase' 
-import Footer from "./components/Footer";
+
 
 function App() {
   return (
     <div className="App">
-        <Header />
-        <Routes />
+        <Header/>
+
+        <Routes>  
+        </Routes>
+
+        
         <Swiper
         slidesPerView={1}
         loop={true}
@@ -35,9 +39,9 @@ function App() {
         <SwiperSlide><img src="https://c.animaapp.com/w56YXEhf/img/frame-2.png" className="slide-image"/></SwiperSlide>
         
         
-        </Swiper>
+      </Swiper>
         <ShowCase />
-        <Footer />
+        
         
     </div>
   );

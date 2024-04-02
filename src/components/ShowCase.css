@@ -1,49 +1,18 @@
-.showCase {
-    display:flex;
-    gap:50px;
-    flex-wrap:wrap;
-    padding:10px;
-    justify-content:space-evenly;
-    width:90vw;
-    max-width:1200px;
-    background-color:white;
-    margin:20px auto;
-}
-
-.carta {
-  background-color: #eaeaea;
-  width: 20vw; 
-  min-width: 280px;
-  max-width: 330px;
-  height: 40vw; 
-  max-height: 400px;
-  border-radius: 8px;
-  overflow: hidden;
-  display: flex;  
-  flex-direction: column;
-  flex-wrap: nowrap;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-}
-
-
-.cartaImgContainer {
-  position: relative;
-  height: 55%;
-  border-bottom: 5px solid #294c72;
-}
-
-.cartaImg {
+.cardImg {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
-.cartaImg img:hover {
+.cardImg img:hover {
     background-color: rgba(0, 0, 0, 0.1); /* Capa azulada semitransparente */   
     color: white;
+
+
 }
 
-
+.imgContainer {
+    position: relative;
+}
 
 .captionContainer {
     position: absolute;
@@ -69,75 +38,18 @@
     transition: opacity 0.5s ease;
   }
 
-.captionContainer:hover {
-  opacity: 1;
-}
-
-.cartaImgCartel {
-  position: absolute;
-  top: 15px;
-  right: 0;
-  width: 80px;
-  padding: 5px;
-  color: orange;
-  background-color: #294c72;
-  z-index: 3;
-  text-align: center;
-  border-radius: 5px 0 0 5px;
-}
-
-.propTitle {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  margin: 0;
-  padding: 5px;
-  background-color: #294c7293;
-  z-index: 3;
-  color: white;
-  font-weight: 900;
-  font-size: 1.5rem;
-}
-
-/*InfoCarta styles */
-
-  .infoCarta {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 35px;
-    justify-content: center;
-
+  .captionContainer:hover {
+    opacity: 1;
   }
 
-  .infoCarta_Item {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-  }
-
-  .infoCarta_Item img {
-    height: 30px;
-    filter: invert(26%) sepia(12%) saturate(2651%) hue-rotate(171deg) brightness(94%) contrast(87%);
-  }
-
-  .cartaPrecio {
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding: 0 20px;
-  }
-
-  .cartaPrecio p {
-    margin: 0;
-  }
-
-  .cartaTipo {
-    padding: 0 20px;
-    color: gray;
-  }
-
-  .cartaTipo p {
-    margin: 0;
+  .cartel {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 120px;
+    padding: 5px;
+    color: orange;
+    background-color: rgb(76, 104, 33);
+    z-index: 3;
+    text-align: center;
   }
